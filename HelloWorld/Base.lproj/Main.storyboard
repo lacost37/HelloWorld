@@ -39,6 +39,10 @@
                                     </children>
                                 </menu>
                                 <state key="normal" title="Show Text"/>
+                                <connections>
+                                    <action selector="buttonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="wb6-bp-aFx"/>
+                                    <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xd6-sI-je2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,10 +54,14 @@
                             <constraint firstItem="LRv-dl-WWX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="idU-x6-Fn6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="tZh-qG-qbg" id="9Ed-ey-Xjj"/>
+                        <outlet property="toggleButton" destination="LRv-dl-WWX" id="JMC-Li-bcf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="84"/>
+            <point key="canvasLocation" x="33" y="84"/>
         </scene>
     </scenes>
     <resources>
